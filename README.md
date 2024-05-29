@@ -1,4 +1,4 @@
-# custimer_banking
+# customer_banking
 Module 3 Challenge
 Requirements
 Create the Savings Account Function (35 points)
