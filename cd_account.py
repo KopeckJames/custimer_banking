@@ -20,7 +20,7 @@ def create_cd_account(balance, interest_rate, months):
     interest_earned = balance * interest_rate * months / 12
 
   # Calculate the new balance
-    new_balance = cd_account.set_balance(balance + interest_earned)
+    new_balance = balance + interest_earned
 
   # Update the balance using set_balance with the new balance
     cd_account.set_balance(new_balance)
@@ -29,4 +29,4 @@ def create_cd_account(balance, interest_rate, months):
     cd_account.set_interest(interest_earned)
 
   # Return the updated balance and interest earned
-    return cd_account.set_balance(new_balance), interest_earned
+    return new_balance, interest_earned
