@@ -1,4 +1,4 @@
-from savings_account import create_savings_account
+centagefrom savings_account import create_savings_account
 from cd_account import create_cd_account
 # ADD YOUR CODE HERE
 
@@ -10,7 +10,7 @@ def main():
     """
     # Prompt the user to set the savings balance, interest rate, and months for the savings account.
     savings_balance = float(input("What is your opening balance for the savings account? "))
-    savings_interest_rate = float(input("What is the interest rate for the savings account? "))
+    savings_interest_rate = float(input("What is the interest rate % for the savings account? "))
     savings_months = int(input("How many months for the savings account? "))
 
     # Call the create_savings_account function and pass the variables from the user.
@@ -22,7 +22,7 @@ def main():
 
     # Prompt the user to set the CD balance, interest rate, and months for the CD account.
     cd_balance = float(input("\nWhat is your opening balance for CD account? "))
-    cd_interest_rate = float(input("What is the interest rate for CD account? "))
+    cd_interest_rate = float(input("What is the interest rate  % for CD account? "))
     cd_months = int(input("How many months for CD account? "))
 
     # Call the create_cd_account function and pass the variables from the user.
